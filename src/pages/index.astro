@@ -1,0 +1,13 @@
+---
+import Products from "../components/Products.jsx";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout>
+  <main>
+    <h1>My Astro Shop</h1>
+    <Products client:load />
+    <div id="paypal-button-container"></div>
+    <p id="result-message"></p>
+  </main>
+</Layout>

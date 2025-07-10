@@ -1,0 +1,28 @@
+---
+import "./src/styles/global.css";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>My Astro Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Astro PayPal Integration</title>
+    <script
+      type="module"
+      src="https://www.paypal.com/sdk/js?client-id=AfLKlYlApeAUK5GMuAH4lKaw2hTSBRj_nXC2MZXH--EiGMPSr045ySocZPPG1fwZGWuszlLNCbRvdtdg&currency=USD"
+    ></script>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
