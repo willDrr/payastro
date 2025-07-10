@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 import { PRODUCTS  } from "../data/products";
-
+  
 
 export default function Shop() {
   const [cart, setCart] = useState([]);
